@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('icons.ttf?aqg6xr') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+  content: "\e900";
+  color: #8b263f;
+}
+.icon-carpet:before {
+  content: "\e901";
+  color: #8b263f;
+}
+.icon-checked:before {
+  content: "\e902";
+  color: #808080;
+}
+.icon-checked-noborder:before {
+  content: "\e903";
+  color: #8b263f;
+}
+.icon-insta:before {
+  content: "\e904";
+  color: #8b263f;
+}
+.icon-plus:before {
+  content: "\e905";
+  color: #8b263f;
+}
+.icon-prise:before {
+  content: "\e906";
+  color: #8b263f;
+}
+.icon-vk:before {
+  content: "\e907";
+  color: #8b263f;
+}
